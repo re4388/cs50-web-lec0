@@ -44,7 +44,7 @@ and if you commit the revised one, git this time will know what you want.
 git log
 	see history
 
-git reset --hard commit-hash
+git reset --hard <the commit hash>
 git reset --hard origin/master
 	go back the ver that I originally got from the repo
 
