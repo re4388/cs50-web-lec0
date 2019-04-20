@@ -33,11 +33,20 @@ since git have no idea which ver. is the one, you need resolve the dif/conflict 
 demo:
 you go github to change something and then commit
 and then you go back to local and then change something and then you try to git pull
-then the editor will let you choose which ver you will going to integrate
+then the editor will let you choose which ver you will going to integrate via git push
 
 you need to manaul edit to the code you want 
 and if you commit the revised one, git this time will know what you want.
 
+
+
+
+git log
+	see history
+
+git reset --hard <the commit hash>
+git reset --hard origin/master
+	go back the ver that I originally got from the repo
 
 
 
