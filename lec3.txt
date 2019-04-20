@@ -1,0 +1,40 @@
+Note:
+
+create repo at git
+git clone http://....
+	get that url repo
+
+cd into that dir
+use touch to create index.html
+
+
+git add 'index.html'
+	let git to track it
+git commit -m "msg"
+	to let git to save this copy
+git status
+	report what's going on at this moment
+git push
+	push change to github
+
+you can know go to github to see the change apple
+
+git pull
+	dl the lastest ver to my local 
+
+you can change on github and use git pull to let local sync to remote
+
+
+merge conflicts
+
+if two people update the file with dif changes and you can't just simple git pull/date the file
+since git have no idea which ver. is the one, you need resolve the dif/conflict first
+
+you need to manaul edit to the code you want 
+and if you commit the revised one, git this time will know what you want.
+
+
+
+
+
+
