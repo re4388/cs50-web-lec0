@@ -48,3 +48,10 @@ git reset --hard <the commit hash>
 git reset --hard origin/master
 	go back the ver that I originally got from the repo
 
+
+everytime, when there's dif between remote and local, you can use git pull to resolve 
+	the conflict
+
+after the edit, you can then add, commit and push.
+
+
